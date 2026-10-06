@@ -533,15 +533,23 @@ export default function Chat() {
           <a href="https://archpointlabs.com" className="flex items-center">
             <Image src="/logos/AP Logo -White.svg" alt="Archpoint Labs" width={99} height={80} className="w-auto" style={{ height: isMobile ? '3.5rem' : '5rem' }} priority />
           </a>
-          <a
-            href="https://calendar.app.google/Y7DRMz8GjakjuGf79"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90"
-            style={{ background: "#ef382e", letterSpacing: "0.01em" }}
-          >
-            Book a Call
-          </a>
+          <div className="flex items-center gap-4 sm:gap-6">
+            <a
+              href="/custom-software-automation"
+              className="text-sm font-semibold text-white/80 transition-colors hover:text-white"
+            >
+              Services
+            </a>
+            <a
+              href="https://calendar.app.google/Y7DRMz8GjakjuGf79"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90"
+              style={{ background: "#ef382e", letterSpacing: "0.01em" }}
+            >
+              Book a Call
+            </a>
+          </div>
         </nav>
 
         {/* Headline & Subheadline */}
